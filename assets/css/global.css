@@ -1,0 +1,207 @@
+@import url(./reset.css);
+@import './fonts.css';
+
+/* My CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+/* HTML Element Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1rem;
+  font-family: Poppins;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #dfdfdf;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888787;
+  border-radius: 5px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #f75321;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  font-size: 1.4em;
+}
+h4 {
+  font-size: 1.2em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: 0.8em;
+}
+p {
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 1.5em;
+  font-family: inherit;
+}
+
+/* Atomic Classes */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+/* Structure Classes */
+.page-container {
+  max-width: 1400px;
+  /* border: 1px solid black; */
+  margin: auto;
+}
+
+.fullParent {
+ 
+}
+
+.font-container {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .font-container {
+    font-size: 0.8rem;
+  }
+}
+
+.divider {
+  width: 100%;
+  background-color: grey;
+  height: 1px;
+}
+
+/* Style Classes */
+@keyframes iconSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.iconRotate {
+  animation: iconSpin 1s infinite ease-in-out;
+}
+
+.brand-bg {
+  background-color: #f75321;
+}
+
+.light-text {
+  color: white;
+}
+
+.dark-text {
+  color: #3d3c3c;
+}
+
+.bold-text {
+  font-weight: 800;
+}
+
+.icon {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 0.8rem;
+  }
+}
+
+@keyframes iconSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.iconRotate {
+  animation: iconSpin 1s infinite ease-in-out;
+}
