@@ -358,6 +358,7 @@
   border-top: 1px solid #cac9c9;
   background-image: url('../images/coverback1.jpg');
   background-size: contain;
+  background-attachment: fixed;
   gap: 400px;
 }
 
