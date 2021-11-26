@@ -241,19 +241,20 @@
   font-size: 4em;
   font-weight: 800;
   text-shadow: 2px 2px #222222;
-  text-shadow: 2px 2px #c5c5c5;
-  color: #068006;
+  /* text-shadow: 2px 2px #c5c5c5; */
+  /* color: #43aa43; */
 }
 
 @media screen and (max-width: 425px) {
   .hero-header {
-    font-size: 3em;
+    font-size: 4em;
   }
 }
 
 .hero-info {
   /* border: 1px solid black; */
   text-shadow: 1px 1px #4e4e4e;
+  margin-bottom: 10px;
 }
 
 .import-item {
