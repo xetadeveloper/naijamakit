@@ -589,6 +589,7 @@
 .footer-nav {
   /* padding: 0 40px; */
   gap: 20px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 425px) {
