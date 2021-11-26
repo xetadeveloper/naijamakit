@@ -44,7 +44,7 @@ paginate: 2
 collections:
   blogposts:
     output: true
-    permalink: naijamakit/:collection/:path
+    permalink: :collection/:path
     sort: date
 
 exclude: ['node_modules']
