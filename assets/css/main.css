@@ -65,9 +65,8 @@
   font-weight: 800;
   cursor: pointer;
   height: 40px;
-  /* width: auto; */
+  width: 60px;
   display: block;
-
   text-align: center;
   /* display: block; */
 }
@@ -97,7 +96,7 @@
 }
 
 .menu-btn:hover {
-  color: #f75321;
+  color: #06b406;
 }
 
 @media screen and (max-width: 768px) {
@@ -150,7 +149,7 @@
 
 @media screen and (max-width: 768px) {
   .nav-item:hover {
-    background-color: #f75321;
+    background-color: #06b406;
   }
 
   .nav-item:hover > .nav-link {
@@ -186,6 +185,8 @@
   align-items: center;
   text-align: center;
   width: 200px;
+  flex-grow: 2;
+  max-width: 200px;
 }
 
 .cta-btn:hover {

@@ -5,13 +5,13 @@ date: 30-01-2020
 description: Importer & Exporters Of G.S.M Phones Accessories, Phone LCD Screens, Power Flex, SmartPhone Gadgets & General Merchants (Wholesale & Retails).
 ---
 
-AMIGOS GLOBAL CONCEPT Communications Is a one stop hub for your high end smartphones Accessories, 3D Pouches, Sub-board, Rework Stations, G.S.M Phone Gadgets, High quality Accessories, e.t.c all @ affordable prices.
+**AMIGOS GLOBAL CONCEPT Communications** Is a one stop hub for your high end smartphones Accessories, 3D Pouches, Sub-board, Rework Stations, G.S.M Phone Gadgets, High quality Accessories, e.t.c all @ affordable prices.
 
-AMIGOS GLOBAL CONCEPT Communications an innovative Nigerian technology company dealing on importation of Goods & Services @ affordable prices. We also deal on exportation of Phone Gadgets & Accessories.
+AMIGOS GLOBAL CONCEPT Communications **an innovative Nigerian technology company dealing on importation of Goods & Services** @ affordable prices. We also deal on exportation of Phone Gadgets & Accessories.
 
-Our ultimate goal is to make a difference in the technology business by providing you with products and services that are second to none. And for that reason, we market only top quality products with very attractive designs at competitive prices.
+**Our ultimate goal** is to make a difference in the technology business by providing you with products and services that are second to none. And for that reason, we market only top quality products with very attractive designs at competitive prices.
 
-AMIGOS GLOBAL CONCEPT Communications has also developed fine working relationships with major online companies in the e- commerce business to make sure goods purchased online are timely and safely delivered.
+**AMIGOS GLOBAL CONCEPT Communications** has also developed fine working relationships with major online companies in the e- commerce business to make sure goods purchased online are timely and safely delivered.
 
 ### Our Vision
 

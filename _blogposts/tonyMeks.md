@@ -26,6 +26,6 @@ Blk A, Shop 32, Lagos Island, Lagos Nigeria.
 
 At Tonymeks & Frizzle Ltd, we leverage on high distributions of KOOCU SMD Rework station @ affordable prices.
 
-Motto: Connecting the world...
+##### Motto: Connecting the world...
 
 Thanks for your patronage.
