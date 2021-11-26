@@ -1,0 +1,51 @@
+.post-hero {
+  height: 80vh;
+  background-image: url(../images/coverback1.jpg);
+  background-size: cover;
+  color: white;
+  gap: 30px;
+  text-align: center;
+}
+
+.overlay {
+  background-color: #0000006c;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.post-hero-header {
+  font-size: 3em;
+  max-width: 1000px;
+  text-transform: uppercase;
+}
+
+.post-hero-desc {
+  /* font-size: 3em; */
+  max-width: 500px;
+}
+
+.post-content {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.post-content > * {
+  line-height: 40px;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.post-content p {
+  text-indent: 20px;
+  margin-bottom: 20px;
+}

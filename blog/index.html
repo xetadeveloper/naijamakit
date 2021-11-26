@@ -1,0 +1,31 @@
+---
+layout: default
+css_file: blog.css
+title: NaijaMakit Blog
+---
+
+<section>
+  <section class="flex justify-center align-center blog-hero">
+    <h1 class="bold-text blog-hero-header">NaijaMakit Blog</h1>
+  </section>
+
+  <section class="dark-text blog-container">
+    <h1>Blog Posts</h1>
+    <section class="flex flex-wrap justify-center align-center post-holder">
+      {% for post in site.blogposts %}
+      <div class="post-body">
+        <div href="{{post.url}}" class="flex flex-col post-item">
+          <h2 class="bold-text post-header">{{post.title}}</h2>
+          <p class="post-desc">{{post.description}}</p>
+          <h6 class="flex justify-center align-center post-excerpt">
+            {{post.excerpt | strip_html | truncatewords: 20, '...'}}
+          </h6>
+          <a href="{{post.url}}" class="view-btn">View Post</a>
+        </div>
+      </div>
+      {% endfor %}
+    </section>
+
+    <button class="more-posts" onclick="showMore()"><h5>Show More</h5></button>
+  </section>
+</section>

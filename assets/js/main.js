@@ -1,10 +1,10 @@
 const importItems = [
-  'High Quality Sanitary Wares',
-  'Ceramic Tiles',
-  'Swimming Pools',
-  'Marble',
-  'Granites',
+  'Phones',
+  'Laptops',
+  'Networking Materials',
+  'Automobiles',
   'Building Materials',
+  'Plumbing Materials',
 ];
 
 let itemCount = 1;
@@ -12,7 +12,10 @@ let itemCount = 1;
 document.onreadystatechange = () => {
   if (document.readyState === 'complete') {
     const importElem = document.querySelector('.import-item');
-    importElem.innerHTML = importItems[0];
+    if (importElem) {
+      importElem.innerHTML = importItems[0];
+      changeText(1500);
+    }
     navbarScroll(true);
 
     window.addEventListener('scroll', evt => {
@@ -21,8 +24,6 @@ document.onreadystatechange = () => {
 
     // For the scrolling
     navLinkCloseNav();
-
-    changeText(1500);
   }
 };
 
@@ -103,4 +104,14 @@ function arrowRight() {
     left: scrollWidth,
     behavior: 'smooth',
   });
+}
+
+function showMore() {
+  const postHolder = document.querySelector('.post-holder');
+  const currentHeight = getComputedStyle(postHolder).maxHeight.split('px')[0];
+  const newHeight = Number.parseInt(currentHeight) + 780;
+
+  console.log('New Height: ', newHeight);
+
+  postHolder.style.maxHeight = newHeight + 'px';
 }

@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>T.J Anthony Ventures</title>
+    <title>{{page.title}}</title>
     <link rel="stylesheet" href={{"/assets/css/global.css" | relative_url}} />
     <link rel="stylesheet" href={{"/assets/css/main.css" | relative_url}} />
+    <link rel="stylesheet" href={{"/assets/css/blog.css" | relative_url}} />
+    <link rel="stylesheet" href={{"/assets/css/posts.css" | relative_url}} />
+    {% assign cssFile = page.css_file %}
+    {% capture cssLink %}
+    /assets/css/{{cssFile}} | relative_url 
+    {% endcapture %}
+    <link rel="stylesheet" href={{cssLink}} />
   </head>
   <body>
     <div class="page">
@@ -14,6 +21,7 @@
       <section class="content">{{content}}</section>
       {%include footer.html %}
     </div>
+
 
     <script src={{"/assets/js/feather.min.js" | relative_url}}></script>
     <script src={{"/assets/js/main.js" | relative_url}}></script>
