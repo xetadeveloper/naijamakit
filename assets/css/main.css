@@ -223,14 +223,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
-  background-position-x: -200px;
-  /* background-position-x: center; */
   color: white;
 }
 
 @media screen and (max-width: 425px) {
   #home {
-    /* background-image: url('../images/timbackgroundamLL.jpeg') !important; */
+    background-position-x: -200px;
   }
 }
 
